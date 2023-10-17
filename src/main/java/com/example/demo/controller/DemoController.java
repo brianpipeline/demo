@@ -11,6 +11,6 @@ public class DemoController {
     @GetMapping("/hello-world")
     @ResponseBody
     public String helloWorld() {
-        return "Hello labs!";
+        return "Changed version!";
     }
 }
